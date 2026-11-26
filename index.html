@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff0f6">
+  <title>HeartsLink - Create Your Love Story</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <a href="#" class="logo">Hearts<span>Link</span> 💗</a>
+
+  <nav id="navLinks">
+    <a href="#home">Home</a>
+    <a href="#templates">Templates</a>
+    <a href="#features">Features</a>
+  </nav>
+
+  <div class="nav-actions">
+    <button id="themeBtn" class="icon-btn" aria-label="Toggle theme">🌙</button>
+    <a href="#templates" class="nav-cta">Get Started</a>
+    <button id="menuBtn" class="icon-btn mobile-menu" aria-label="Open menu">☰</button>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <span class="eyebrow">✦ YOUR STORY, YOUR WORLD ✦</span>
+      <h1>Every Love Story<br>Deserves a <span>Website.</span></h1>
+      <p>
+        Create beautiful romantic websites with lovely animations,
+        memories and surprises. Make your special moments unforgettable.
+      </p>
+      <a href="#templates" class="primary-btn">Explore Templates →</a>
+      <div class="hero-note">💗 Create · Customize · Publish · Share</div>
+    </div>
+
+    <div class="hero-art">
+      <div class="heart-circle">
+        <span class="big-heart">💗</span>
+        <span class="float f1">💕</span>
+        <span class="float f2">✨</span>
+        <span class="float f3">💌</span>
+        <span class="float f4">🌸</span>
+      </div>
+      <div class="mini-card">
+        <span>💌</span>
+        <div>
+          <strong>A little love note</strong>
+          <small>Made with love, just for you.</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats">
+    <div><strong>∞</strong><span>Love Stories</span></div>
+    <div><strong>♡</strong><span>Beautiful Templates</span></div>
+    <div><strong>1</strong><span>Special Story</span></div>
+  </section>
+
+  <section class="templates section" id="templates">
+    <div class="section-heading">
+      <span class="eyebrow">FIND YOUR PERFECT DESIGN</span>
+      <h2>Explore Templates <span>♡</span></h2>
+      <p>Choose a design and start creating your own story.</p>
+    </div>
+
+    <div class="search-bar">
+      <span>🔍</span>
+      <input id="searchInput" type="search"
+        placeholder="Search love story, proposal, birthday...">
+    </div>
+
+    <div class="filters" id="filters">
+      <button class="filter active" data-category="all">All</button>
+      <button class="filter" data-category="proposal">Proposal</button>
+      <button class="filter" data-category="story">Love Story</button>
+      <button class="filter" data-category="birthday">Birthday</button>
+      <button class="filter" data-category="surprise">Surprise</button>
+    </div>
+
+    <div class="template-grid" id="templateGrid"></div>
+    <p class="empty-message" id="emptyMessage" hidden>
+      No templates found. Try another search! 💗
+    </p>
+  </section>
+
+  <section class="features section" id="features">
+    <div class="section-heading">
+      <span class="eyebrow">MADE FOR SPECIAL MOMENTS</span>
+      <h2>Why HeartsLink?</h2>
+    </div>
+
+    <div class="feature-grid">
+      <article class="feature-card">
+        <span>🎨</span>
+        <h3>Easy Customization</h3>
+        <p>Add names, photos and personal messages.</p>
+      </article>
+      <article class="feature-card">
+        <span>✨</span>
+        <h3>Lovely Animations</h3>
+        <p>Beautiful effects for unforgettable moments.</p>
+      </article>
+      <article class="feature-card">
+        <span>🔗</span>
+        <h3>Share Your Story</h3>
+        <p>Publish your creation and share its link.</p>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <a href="#" class="logo">Hearts<span>Link</span> 💗</a>
+  <p>Made with love. Every story matters.</p>
+  <small>© 2026 HeartsLink. All rights reserved.</small>
+</footer>
+
+<div class="modal" id="previewModal" aria-hidden="true">
+  <div class="modal-content">
+    <button class="close-btn" id="closeModal" aria-label="Close">✕</button>
+    <div id="previewContent"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
